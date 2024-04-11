@@ -7,6 +7,7 @@ public class Block : MonoBehaviour
 {
     [SerializeField] int points = 100;
     [SerializeField] AudioSource audioSource;
+    [SerializeField] PointsSystem pointsSystem;
 
     Rigidbody rb;
     bool destroyed;
@@ -20,8 +21,9 @@ public class Block : MonoBehaviour
     {
         if (other.CompareTag("Kill") && rb.velocity.magnitude == 0 && rb.angularVelocity.magnitude == 0)
         {
-            destroyed = true; 
-            //int 
+            destroyed = true;
+            pointsSystem.AddPoints(points);
+            Destroy(gameObject);
         }
     }
 }

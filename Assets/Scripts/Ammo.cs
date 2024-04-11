@@ -15,7 +15,7 @@ public class Ammo : MonoBehaviour
         if (lifespan > 0) Destroy(gameObject, lifespan);
         rb = GetComponent<Rigidbody>();
 
-        rb.AddRelativeForce(Vector3.forward * speed, ForceMode.VelocityChange);
+        rb.AddRelativeForce(Vector3.forward * -speed, ForceMode.VelocityChange);
     }
 
     void Update()
