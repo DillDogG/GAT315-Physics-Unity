@@ -1157,7 +1157,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ammo: {fileID: 4715355531152875201, guid: e98001c57dd73e14396fe4cab361b742, type: 3}
   emission: {fileID: 238940817}
-  fireRate: 0
+  audioSource: {fileID: 0}
+  equipped: 1
 --- !u!1 &488431040
 GameObject:
   m_ObjectHideFlags: 0
@@ -6458,9 +6459,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2044399295}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f06ee2335acc004ca3b80eeea4888bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 2eec545b8f4f47f4d940919dd7d6615a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  type: 0
+  size: 20
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1 &2130018854
 GameObject:
   m_ObjectHideFlags: 0
