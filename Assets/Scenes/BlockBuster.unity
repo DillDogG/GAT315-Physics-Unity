@@ -1982,7 +1982,7 @@ MonoBehaviour:
   ammo: {fileID: 4033918823570135262, guid: 30ac60ec66574074e9bac548dce7d642, type: 3}
   emission: {fileID: 471893253}
   audioSource: {fileID: 471893256}
-  equipped: 0
+  equipped: 1
 --- !u!82 &471893256
 AudioSource:
   m_ObjectHideFlags: 0

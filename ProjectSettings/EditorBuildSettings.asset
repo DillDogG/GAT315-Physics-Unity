@@ -8,4 +8,37 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Collider.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: e2139e32061b2074f8b668c3a28f2757
+  - enabled: 1
+    path: Assets/Scenes/CharacterAnimations.unity
+    guid: 551d1a1a24fdf2740b0d61d6945b9de6
+  - enabled: 1
+    path: Assets/Scenes/Character.unity
+    guid: 09889be8be4ca22489c4d415e4654dd3
+  - enabled: 1
+    path: Assets/Scenes/BlockBuster.unity
+    guid: e88f95a0805c31441ba8a997eaa06e0d
+  - enabled: 1
+    path: Assets/Scenes/Cloth.unity
+    guid: 76159638242b3c24ebb13068e3d568e9
+  - enabled: 1
+    path: Assets/Scenes/Collision.unity
+    guid: 45d83bc4999ac7c43a4ead1b8e00b78a
+  - enabled: 1
+    path: Assets/Scenes/Joints.unity
+    guid: bfd74d73de7d11a49b3f9ba41d0ad0fa
+  - enabled: 1
+    path: Assets/Scenes/PhysicsGame.unity
+    guid: 4ac840dbe555ed24cabca28ce7014087
+  - enabled: 1
+    path: Assets/Scenes/Ragdoll.unity
+    guid: 75bb803289f78914c9d0ba701a21933c
+  - enabled: 1
+    path: Assets/Scenes/Rigidbody.unity
+    guid: 83c57fee889eac0459b731b6c2b1a038
+  - enabled: 1
+    path: Assets/Scenes/Vehicle.unity
+    guid: c99106bd35398cd41a25af4fc51acd64
   m_configObjects: {}

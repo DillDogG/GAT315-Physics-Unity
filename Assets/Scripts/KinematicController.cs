@@ -21,7 +21,7 @@ public class KinematicController : MonoBehaviour
 
         Vector3.ClampMagnitude(direction, 1);
 
-        transform.rotation *= Quaternion.Euler(0, rotation * speed, 0);
+        transform.rotation *= Quaternion.Euler(0, rotation * (speed / 5), 0);
 
         direction = transform.rotation * direction;
 
